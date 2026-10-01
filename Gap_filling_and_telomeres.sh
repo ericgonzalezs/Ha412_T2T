@@ -38,8 +38,7 @@ BEGIN {
 }' fake.assembly > fake_flipcorrected.assembly
 
 
-#cat fake_flipcorrected.assembly <(bash add_indexorder.sh fake.assembly instructions_pergap.txt) > onlygapsfragments.with.indexes.assem
-bly
+#cat fake_flipcorrected.assembly <(bash add_indexorder.sh fake.assembly instructions_pergap.txt) > onlygapsfragments.with.indexes.assembly
 
 cat fake_flipcorrected.assembly <(bash add_indexorder_invscaff.sh  fake.assembly instructions_pergap.txt) > onlygapsfragments.with.inde
 xes.assembly

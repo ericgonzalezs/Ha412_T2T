@@ -4,8 +4,11 @@
 #create a file with our Gap_pos
 bash CoundNs.sh Fakefasta.fasta > GAP_POS.txt
 
-# we concatenate our main fasta file with our HIFI assembly, the sequences we extraced from the nanopre assembly to fill the gaps and the fasta for teh telomeres sequences. 
-#The file FindGaps.sh on the main page shows how we selected and extracted the nanopore sequences and the telomeric sequences
+# We concatenated our main FASTA file with the HiFi assembly, the sequences extracted from the Nanopore assembly to fill gaps, 
+#and the FASTA file containing the telomeric sequences.
+#We selected and extracted the Nanopore and telomeric sequences using our Pysam_semiauto.py script. 
+#For each gap position, we used Pysam_semiauto.py to identify sequences in the AnchorWave or minimap2 alignments that 
+#could be used to fill the gap..  
 
 cat ONLY_HIFI_purged_l8_m9_u400_YAHS_H1names_3DDNA_hap1.reviewed.chr_assembled.fasta  ALLFASTAStoINSERTNN.fa TelomeresNN41.fa  > ONLY_H
 IFI_purged_l8_m9_u400_YAHS_H1names_3DDNA_hap1.reviewed.chr_assembled_withcontigstoinsert.fasta

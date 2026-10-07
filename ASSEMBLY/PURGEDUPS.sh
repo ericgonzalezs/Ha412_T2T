@@ -1,5 +1,5 @@
 #These are the purge_dups steps I followed. More information can be found here: https://github.com/dfguan/purge_dups
-#We followed the same 3 steps for the HiFi and the nanopore separated assemblies, the selected cutoffs are in the paper
+#We followed the same three steps for the HiFi and Nanopore assemblies separately. The selected cutoffs are reported in the paper.
 
 #STEP1
 minimap2 -xasm20 -t 20 H4412_onlyhif_hetlikeassembly_0.24.0.asm.hic.p_ctg.fasta m84185_240524_234358_s4.hifi_reads.fastq.gz | gzip -c - > reads_vs_assembly.paf.gz

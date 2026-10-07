@@ -8,7 +8,7 @@ You can find [here](https://github.com/ericgonzalezs/ASSEMBLIES/tree/main) the i
 The [MANUALCURATION](https://github.com/ericgonzalezs/Ha412_T2T/tree/main/MANUALCURATION) contains the steps we followed to prepare the files for visualization in Juicebox and to correct the FASTA file.
 
 The [GAPFILLING](https://github.com/ericgonzalezs/Ha412_T2T/tree/main/GAPFILLING) folder contains all the scripts we used to extract Nanopore sequences for filling gaps in the HiFi assembly and to add telomeric sequences.
-The s[Gap_filling_and_telomeres.sh](https://github.com/ericgonzalezs/Ha412_T2T/blob/main/GAPFILLING/Gap_filling_and_telomeres.sh) script shows the complete pipeline and how we used the different scripts.
+The [Gap_filling_and_telomeres.sh](https://github.com/ericgonzalezs/Ha412_T2T/blob/main/GAPFILLING/Gap_filling_and_telomeres.sh) script shows the complete pipeline and how we used the different scripts.
 
 A script that may be particularly useful to the community is [Pysam_semiauto.py](https://github.com/ericgonzalezs/Ha412_T2T/blob/main/GAPFILLING/Pysam_semiauto.py) This script was used to extract Nanopore sequences that could be used to fill gaps in the HiFi assembly based on assembly alignments generated with [Anchorwave](https://github.com/ericgonzalezs/Ha412_T2T/blob/main/GAPFILLING/Anchorwave.sh) and [minimap2](https://github.com/ericgonzalezs/Ha412_T2T/blob/main/GAPFILLING/minimap2.sh).
 

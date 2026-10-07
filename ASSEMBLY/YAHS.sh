@@ -1,5 +1,6 @@
 # I am using yahs --version
 #1.2.2
+#We followed the same steps for the HiFi and Nanopore assemblies separately. 
 #After running juicer, we going to use the file merged_nodups.txt to create a bed file for yahs
 #####################################################################################################
 

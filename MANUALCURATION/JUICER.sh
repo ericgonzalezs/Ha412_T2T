@@ -1,0 +1,1 @@
+bash scripts/juicer.sh -D $PWD -g Ha412_ALLREADs.asm.hic.p -s DpnII -p restriction_sites/Ha412_DpnII.chrom.sizes -y restriction_sites/Ha412_DpnII.txt -z references/ONLY_HIFI_purged_l8_m9_u400_YAHS.fasta -t 20  -S early
